@@ -1,0 +1,454 @@
+[
+  {
+    "title": "Desert Safari with BBQ Dinner",
+    "description": "Experience the ultimate desert adventure with dune bashing, camel rides, sandboarding, and a traditional BBQ dinner under the stars. Our expert drivers will take you on an exhilarating ride through the golden sand dunes before settling at our campsite for entertainment and a delicious feast.",
+    "short_description": "Thrilling dune bashing, camel rides, and authentic BBQ dinner under the stars",
+    "category_slug": "desert-safari",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 85.00,
+    "sale_price": 65.00,
+    "duration_hours": 6,
+    "duration_text": "6 hours",
+    "max_participants": 50,
+    "highlights": [
+      "Dune bashing in 4x4 vehicles",
+      "Camel riding",
+      "Sandboarding",
+      "Henna painting",
+      "Traditional BBQ dinner",
+      "Live entertainment"
+    ],
+    "included": [
+      "Hotel pickup and drop-off",
+      "4x4 dune bashing",
+      "Camel ride",
+      "Sandboarding",
+      "BBQ dinner with soft drinks",
+      "Live shows"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Alcoholic beverages",
+      "Quad biking (optional)"
+    ],
+    "itinerary": [
+      {
+        "time": "3:30 PM",
+        "description": "Pickup from your hotel"
+      },
+      {
+        "time": "4:30 PM",
+        "description": "Arrive at the desert for dune bashing"
+      },
+      {
+        "time": "5:30 PM",
+        "description": "Camel riding and sandboarding"
+      },
+      {
+        "time": "6:30 PM",
+        "description": "Watch the sunset and arrive at the campsite"
+      },
+      {
+        "time": "7:00 PM",
+        "description": "BBQ dinner and live entertainment"
+      },
+      {
+        "time": "9:00 PM",
+        "description": "Return to hotel"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is this tour suitable for children?",
+        "answer": "Yes, children of all ages can enjoy this tour. Dune bashing is safe but thrilling!"
+      },
+      {
+        "question": "What should I wear?",
+        "answer": "Comfortable, loose-fitting clothes are recommended. Avoid high heels."
+      }
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?w=1200",
+        "alt": "Desert Safari",
+        "is_primary": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1549144511-f099e773c147?w=1200",
+        "alt": "Camel Ride",
+        "is_primary": false
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": true
+  },
+  {
+    "title": "Burj Khalifa At The Top",
+    "description": "Visit the world's tallest building and enjoy breathtaking views from the 124th and 125th floors. Experience the high-speed elevator journey and take in 360-degree views of Dubai's stunning skyline, the desert, and the Arabian Gulf.",
+    "short_description": "Stunning views from the world's tallest building observation deck",
+    "category_slug": "city-tours",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 159.00,
+    "duration_hours": 2,
+    "duration_text": "1.5-2 hours",
+    "max_participants": 100,
+    "highlights": [
+      "124th & 125th floor access",
+      "360-degree views",
+      "Interactive displays",
+      "High-speed elevator experience",
+      "Photo opportunities"
+    ],
+    "included": [
+      "Entry ticket to observation deck",
+      "Audio guide",
+      "Access to interactive displays"
+    ],
+    "excluded": [
+      "Hotel transfers",
+      "Food and beverages",
+      "SKY lounge access"
+    ],
+    "faq": [
+      {
+        "question": "Can I take photos?",
+        "answer": "Yes, photography is allowed and encouraged!"
+      },
+      {
+        "question": "Is there a dress code?",
+        "answer": "Smart casual attire is recommended."
+      }
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200",
+        "alt": "Burj Khalifa",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": false
+  },
+  {
+    "title": "Dubai Marina Yacht Cruise",
+    "description": "Sail along Dubai Marina on a luxurious yacht and witness the stunning skyline. Enjoy the fresh sea breeze, spectacular views of iconic landmarks, and onboard refreshments. Perfect for special occasions or a romantic evening.",
+    "short_description": "Luxury yacht cruise with stunning Dubai Marina views",
+    "category_slug": "water-activities",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 299.00,
+    "sale_price": 249.00,
+    "duration_hours": 3,
+    "duration_text": "3 hours",
+    "max_participants": 30,
+    "highlights": [
+      "Luxury yacht experience",
+      "Dubai Marina views",
+      "Ain Dubai wheel views",
+      "Complimentary refreshments",
+      "Swimming stop"
+    ],
+    "included": [
+      "2-3 hour yacht cruise",
+      "Soft drinks and snacks",
+      "Swimming equipment",
+      "Safety equipment"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Hotel transfers",
+      "Gratuities"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1580541631950-7282082b53ce?w=1200",
+        "alt": "Dubai Marina Yacht",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": true
+  },
+  {
+    "title": "IMG Worlds of Adventure",
+    "description": "Visit the world's largest indoor theme park featuring thrilling rides, live shows, and attractions based on popular characters including Marvel superheroes, Cartoon Network favorites, and dinosaurs from the Lost Valley.",
+    "short_description": "World's largest indoor theme park with Marvel & Cartoon Network zones",
+    "category_slug": "theme-parks",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 315.00,
+    "sale_price": 275.00,
+    "duration_hours": 8,
+    "duration_text": "Full day",
+    "max_participants": 200,
+    "highlights": [
+      "Marvel Zone rides",
+      "Cartoon Network Zone",
+      "Lost Valley dinosaurs",
+      "Live shows",
+      "4 themed zones",
+      "Indoor air-conditioned"
+    ],
+    "included": [
+      "Full day park access",
+      "Access to all rides and attractions",
+      "Live entertainment"
+    ],
+    "excluded": [
+      "Food and beverages",
+      "Merchandise",
+      "VIP experiences",
+      "Hotel transfers"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=1200",
+        "alt": "Theme Park",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": true
+  },
+  {
+    "title": "Abu Dhabi City Tour",
+    "description": "Explore the capital of UAE on this full-day tour. Visit the magnificent Sheikh Zayed Grand Mosque, the stunning Emirates Palace, and drive along the beautiful Corniche. Experience the perfect blend of traditional culture and modern architecture.",
+    "short_description": "Full-day tour of UAE's capital including the Grand Mosque",
+    "category_slug": "city-tours",
+    "location_city": "Abu Dhabi",
+    "location_country": "UAE",
+    "base_price": 175.00,
+    "duration_hours": 10,
+    "duration_text": "Full day (10 hours)",
+    "max_participants": 40,
+    "highlights": [
+      "Sheikh Zayed Grand Mosque",
+      "Emirates Palace visit",
+      "Corniche drive",
+      "Heritage Village",
+      "Date Market"
+    ],
+    "included": [
+      "Hotel pickup and drop-off from Dubai",
+      "Air-conditioned transport",
+      "English-speaking guide",
+      "All entrance fees",
+      "Bottled water"
+    ],
+    "excluded": [
+      "Lunch",
+      "Personal expenses",
+      "Gratuities"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?w=1200",
+        "alt": "Sheikh Zayed Mosque",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": false
+  },
+  {
+    "title": "Skydiving Over Palm Jumeirah",
+    "description": "Experience the ultimate adrenaline rush with a tandem skydive over the iconic Palm Jumeirah. Jump from 13,000 feet and enjoy breathtaking views of Dubai's coastline as you freefall at 120mph before a peaceful parachute descent.",
+    "short_description": "Tandem skydive with stunning Palm Jumeirah views",
+    "category_slug": "adventure-sports",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 1999.00,
+    "duration_hours": 3,
+    "duration_text": "2-3 hours",
+    "max_participants": 20,
+    "highlights": [
+      "Jump from 13,000 feet",
+      "Palm Jumeirah views",
+      "60 seconds freefall",
+      "Tandem with professional instructor",
+      "Certificate included"
+    ],
+    "included": [
+      "Tandem skydive",
+      "Professional instructor",
+      "All equipment",
+      "Certificate",
+      "Photos and video (optional upgrade)"
+    ],
+    "excluded": [
+      "Hotel transfers",
+      "Photos and video package",
+      "Insurance"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1517154268192-2e83bc2b5a24?w=1200",
+        "alt": "Skydiving",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": false
+  },
+  {
+    "title": "Dubai Frame Entry Ticket",
+    "description": "Visit the iconic Dubai Frame, a 150-meter tall architectural landmark offering spectacular views of old and new Dubai. Walk across the glass-floored Sky Deck and learn about Dubai's past, present, and future through immersive exhibitions.",
+    "short_description": "Visit the iconic 150m tall Dubai Frame landmark",
+    "category_slug": "city-tours",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 52.00,
+    "duration_hours": 2,
+    "duration_text": "1-2 hours",
+    "max_participants": 100,
+    "highlights": [
+      "150m observation deck",
+      "Glass floor walkway",
+      "Old and new Dubai views",
+      "Interactive museum",
+      "Future Dubai gallery"
+    ],
+    "included": [
+      "Entry ticket",
+      "Access to all exhibitions",
+      "Sky Deck access"
+    ],
+    "excluded": [
+      "Hotel transfers",
+      "Food and beverages"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1597659840241-37e2b9c2f55f?w=1200",
+        "alt": "Dubai Frame",
+        "is_primary": true
+      }
+    ],
+    "is_featured": false,
+    "is_on_sale": false
+  },
+  {
+    "title": "Traditional Dhow Cruise Dinner",
+    "description": "Enjoy a memorable evening aboard a traditional wooden dhow cruising through Dubai Creek or Marina. Savor a delicious international buffet dinner while enjoying live entertainment and stunning views of illuminated buildings.",
+    "short_description": "Traditional dhow cruise with dinner and entertainment",
+    "category_slug": "cultural-experiences",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 99.00,
+    "sale_price": 79.00,
+    "duration_hours": 3,
+    "duration_text": "2-3 hours",
+    "max_participants": 100,
+    "highlights": [
+      "Traditional wooden dhow",
+      "International buffet",
+      "Live entertainment",
+      "Creek or Marina views",
+      "Air-conditioned lower deck"
+    ],
+    "included": [
+      "2-hour cruise",
+      "International buffet dinner",
+      "Soft drinks and water",
+      "Live entertainment"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Hotel pickup (available at extra cost)",
+      "Gratuities"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1578895101408-1a36b834405b?w=1200",
+        "alt": "Dhow Cruise",
+        "is_primary": true
+      }
+    ],
+    "is_featured": false,
+    "is_on_sale": true
+  },
+  {
+    "title": "Aquaventure Waterpark",
+    "description": "Spend an exciting day at Aquaventure Waterpark, one of the world's most thrilling water parks. Featuring record-breaking rides, a private beach, and access to The Lost Chambers Aquarium. Perfect for families and thrill-seekers alike.",
+    "short_description": "World-class waterpark with thrilling slides and private beach",
+    "category_slug": "water-activities",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 325.00,
+    "sale_price": 285.00,
+    "duration_hours": 8,
+    "duration_text": "Full day",
+    "max_participants": 300,
+    "highlights": [
+      "Record-breaking water slides",
+      "Private beach access",
+      "Lost Chambers Aquarium",
+      "Lazy river",
+      "Kids play areas"
+    ],
+    "included": [
+      "Full day park access",
+      "Access to all slides and attractions",
+      "Private beach access",
+      "Lost Chambers Aquarium entry"
+    ],
+    "excluded": [
+      "Locker rental",
+      "Towel rental",
+      "Food and beverages",
+      "Hotel transfers"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1559599746-c0f31c58956e?w=1200",
+        "alt": "Water Park",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": true
+  },
+  {
+    "title": "Hot Air Balloon Ride",
+    "description": "Soar above the desert at sunrise in a hot air balloon for an unforgettable experience. Watch the golden dunes come alive as the sun rises, spot wildlife, and enjoy a gourmet breakfast after landing. A truly magical adventure.",
+    "short_description": "Sunrise hot air balloon over the desert with breakfast",
+    "category_slug": "adventure-sports",
+    "location_city": "Dubai",
+    "location_country": "UAE",
+    "base_price": 1200.00,
+    "duration_hours": 5,
+    "duration_text": "4-5 hours (early morning)",
+    "max_participants": 24,
+    "highlights": [
+      "Sunrise flight",
+      "Desert views",
+      "Wildlife spotting",
+      "Gourmet breakfast",
+      "Certificate",
+      "Falcon show"
+    ],
+    "included": [
+      "Hot air balloon flight",
+      "Falcon photography",
+      "Gourmet breakfast",
+      "Transfers from Dubai",
+      "Flight certificate"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Gratuities",
+      "Video package"
+    ],
+    "images_json": [
+      {
+        "url": "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=1200",
+        "alt": "Hot Air Balloon",
+        "is_primary": true
+      }
+    ],
+    "is_featured": true,
+    "is_on_sale": false
+  }
+]

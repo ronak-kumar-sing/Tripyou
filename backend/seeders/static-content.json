@@ -1,0 +1,152 @@
+[
+  {
+    "key": "hero_title",
+    "value": "Discover Your Next Adventure",
+    "section": "hero",
+    "type": "text"
+  },
+  {
+    "key": "hero_subtitle",
+    "value": "Book unforgettable tours and experiences with the best prices guaranteed",
+    "section": "hero",
+    "type": "text"
+  },
+  {
+    "key": "hero_cta_primary",
+    "value": "Browse Tours",
+    "section": "hero",
+    "type": "text"
+  },
+  {
+    "key": "hero_cta_secondary",
+    "value": "Call Now",
+    "section": "hero",
+    "type": "text"
+  },
+  {
+    "key": "hero_phone",
+    "value": "+971 4 123 4567",
+    "section": "hero",
+    "type": "text"
+  },
+  {
+    "key": "feature_1_title",
+    "value": "Large Inventory",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_1_description",
+    "value": "Choose from 500+ tours and experiences",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_2_title",
+    "value": "Best Prices",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_2_description",
+    "value": "Price match guarantee on all bookings",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_3_title",
+    "value": "Easy Booking",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_3_description",
+    "value": "Book online in minutes, pay securely",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_4_title",
+    "value": "24/7 Support",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "feature_4_description",
+    "value": "Our team is here to help anytime",
+    "section": "features",
+    "type": "text"
+  },
+  {
+    "key": "newsletter_title",
+    "value": "Get Exclusive Deals",
+    "section": "newsletter",
+    "type": "text"
+  },
+  {
+    "key": "newsletter_description",
+    "value": "Subscribe to our newsletter and get 20% off your first booking!",
+    "section": "newsletter",
+    "type": "text"
+  },
+  {
+    "key": "newsletter_discount",
+    "value": "20%",
+    "section": "newsletter",
+    "type": "text"
+  },
+  {
+    "key": "footer_address",
+    "value": "123 Sheikh Zayed Road, Dubai, UAE",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "footer_phone",
+    "value": "+971 4 123 4567",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "footer_email",
+    "value": "info@tourhub.com",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "footer_copyright",
+    "value": "© 2024 TourHub. All rights reserved.",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "social_facebook",
+    "value": "https://facebook.com/tourhub",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "social_instagram",
+    "value": "https://instagram.com/tourhub",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "social_twitter",
+    "value": "https://twitter.com/tourhub",
+    "section": "footer",
+    "type": "text"
+  },
+  {
+    "key": "contact_hero_title",
+    "value": "Get in Touch",
+    "section": "contact",
+    "type": "text"
+  },
+  {
+    "key": "contact_hero_subtitle",
+    "value": "Have questions? We'd love to hear from you.",
+    "section": "contact",
+    "type": "text"
+  }
+]

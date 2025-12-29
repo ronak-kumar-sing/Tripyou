@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Theme Parks",
+    "slug": "theme-parks",
+    "type": "theme-park",
+    "description": "Experience world-class theme parks with thrilling rides and entertainment",
+    "image_url": "https://images.unsplash.com/photo-1594138671338-93be0aa5a0c7?w=800",
+    "icon": "🎢",
+    "display_order": 1
+  },
+  {
+    "name": "Water Activities",
+    "slug": "water-activities",
+    "type": "water-activities",
+    "description": "Dive into exciting water adventures and marine experiences",
+    "image_url": "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=800",
+    "icon": "🏄",
+    "display_order": 2
+  },
+  {
+    "name": "Desert Safari",
+    "slug": "desert-safari",
+    "type": "desert-safari",
+    "description": "Explore the majestic desert with thrilling safari experiences",
+    "image_url": "https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800",
+    "icon": "🐪",
+    "display_order": 3
+  },
+  {
+    "name": "City Tours",
+    "slug": "city-tours",
+    "type": "city-tours",
+    "description": "Discover the best attractions and landmarks of the city",
+    "image_url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800",
+    "icon": "🏙️",
+    "display_order": 4
+  },
+  {
+    "name": "Adventure Sports",
+    "slug": "adventure-sports",
+    "type": "adventure-sports",
+    "description": "Get your adrenaline pumping with exciting adventure activities",
+    "image_url": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800",
+    "icon": "⛷️",
+    "display_order": 5
+  },
+  {
+    "name": "Cultural Experiences",
+    "slug": "cultural-experiences",
+    "type": "cultural",
+    "description": "Immerse yourself in local culture, traditions, and heritage",
+    "image_url": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=800",
+    "icon": "🕌",
+    "display_order": 6
+  },
+  {
+    "name": "Luxury Experiences",
+    "slug": "luxury-experiences",
+    "type": "luxury",
+    "description": "Indulge in premium, exclusive experiences",
+    "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+    "icon": "💎",
+    "display_order": 7
+  },
+  {
+    "name": "Family Fun",
+    "slug": "family-fun",
+    "type": "family",
+    "description": "Perfect activities for the whole family to enjoy together",
+    "display_order": 8
+  }
+]
