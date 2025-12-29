@@ -15,19 +15,19 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-primary-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-primary-600 hover:to-blue-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 shadow-md hover:shadow-xl transform hover:scale-105;
+    @apply bg-primary-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 shadow-md hover:shadow-lg;
   }
 
   .btn-secondary {
-    @apply bg-gradient-to-r from-secondary-500 to-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-secondary-600 hover:to-orange-600 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 shadow-md hover:shadow-xl transform hover:scale-105;
+    @apply bg-secondary-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-secondary-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 shadow-md hover:shadow-lg;
   }
 
   .btn-outline {
-    @apply border-2 border-primary-500 text-primary-500 px-6 py-3 rounded-xl font-semibold hover:bg-gradient-to-r hover:from-primary-500 hover:to-blue-600 hover:text-white transition-all duration-300 hover:border-transparent;
+    @apply border-2 border-primary-500 text-primary-500 px-6 py-3 rounded-lg font-semibold hover:bg-primary-500 hover:text-white transition-colors duration-200;
   }
 
   .input {
-    @apply w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-300 hover:border-gray-400;
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200;
   }
 
   .input-error {
@@ -35,34 +35,19 @@
   }
 
   .label {
-    @apply block text-sm font-medium text-gray-700 mb-2;
+    @apply block text-sm font-medium text-gray-700 mb-1;
   }
 
   .card {
-    @apply bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100;
+    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300;
   }
 
   .section-title {
-    @apply text-4xl md:text-5xl font-bold text-gray-900;
+    @apply text-3xl md:text-4xl font-bold text-gray-900;
   }
 
   .section-subtitle {
-    @apply text-lg text-gray-600 mt-3;
-  }
-  
-  /* Modern gradient text */
-  .gradient-text {
-    @apply bg-gradient-to-r from-primary-500 to-blue-600 bg-clip-text text-transparent;
-  }
-  
-  /* Glass morphism effect */
-  .glass {
-    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
-  }
-  
-  /* Animated underline */
-  .animated-underline {
-    @apply relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-primary-500 after:to-blue-600 hover:after:w-full after:transition-all after:duration-300;
+    @apply text-lg text-gray-600 mt-2;
   }
 }
 
@@ -81,17 +66,8 @@
     overflow: hidden;
   }
   
-  /* Modern animations */
   .animate-fade-in {
-    animation: fadeIn 0.6s ease-out;
-  }
-  
-  .animate-slide-up {
-    animation: slideUp 0.6s ease-out;
-  }
-  
-  .animate-scale-in {
-    animation: scaleIn 0.4s ease-out;
+    animation: fadeIn 0.5s ease-out;
   }
 }
 
@@ -104,61 +80,33 @@
   }
 }
 
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* Custom scrollbar with gradient */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #f3f4f6, #e5e7eb);
-  border-radius: 10px;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #32B8C6, #0891b2);
-  border-radius: 10px;
-  border: 2px solid transparent;
-  background-clip: padding-box;
+  background: #32B8C6;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #0891b2, #0e7490);
-  border-radius: 10px;
-  border: 2px solid transparent;
-  background-clip: padding-box;
+  background: #0891b2;
 }
 
 /* Selection styling */
 ::selection {
-  background: linear-gradient(to right, #32B8C6, #3b82f6);
+  background: #32B8C6;
   color: white;
 }
 
 ::-moz-selection {
-  background: linear-gradient(to right, #32B8C6, #3b82f6);
+  background: #32B8C6;
   color: white;
 }
 
@@ -166,11 +114,11 @@
 .ql-container {
   min-height: 200px;
   font-size: 16px;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0 0 8px 8px;
 }
 
 .ql-toolbar {
-  border-radius: 12px 12px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .ql-editor {
@@ -183,5 +131,5 @@
 }
 
 .react-datepicker__input-container input {
-  @apply w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all;
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500;
 }
