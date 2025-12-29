@@ -64,7 +64,7 @@ exports.getDashboardStats = async (req, res) => {
     // Recent bookings
     const recentBookings = await Booking.find()
       .populate({
-        path: 'tour',
+        path: 'tour_id',
         select: 'title'
       })
       .sort({ createdAt: -1 })
@@ -74,7 +74,7 @@ exports.getDashboardStats = async (req, res) => {
       id: b._id,
       booking_reference: b.booking_reference,
       customer_name: b.customer_name,
-      tour_title: b.tour?.title,
+      tour_title: b.tour_id?.title,
       booking_date: b.booking_date,
       status: b.status,
     }));

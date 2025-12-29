@@ -1,6 +1,6 @@
 const { Booking, Tour } = require('../models');
 const { generateBookingReference } = require('../utils/helpers');
-const { sendBookingConfirmation } = require('../utils/emailService');
+const { sendBookingConfirmation, sendBookingApprovedEmail } = require('../utils/emailService');
 
 // Create booking
 exports.createBooking = async (req, res) => {
@@ -68,7 +68,7 @@ exports.getBookingByReference = async (req, res) => {
     const booking = await Booking.findOne({
       booking_reference: req.params.reference
     }).populate({
-      path: 'tour',
+      path: 'tour_id',
       select: 'title slug location_city duration_text images_json'
     });
 
@@ -117,7 +117,7 @@ exports.getAllBookings = async (req, res) => {
     const [rows, count] = await Promise.all([
       Booking.find(where)
         .populate({
-          path: 'tour',
+          path: 'tour_id',
           select: 'title slug'
         })
         .sort({ createdAt: -1 })
@@ -146,7 +146,7 @@ exports.getBookingById = async (req, res) => {
   try {
     const booking = await Booking.findById(req.params.id)
       .populate({
-        path: 'tour'
+        path: 'tour_id'
       });
 
     if (!booking) {
@@ -162,12 +162,13 @@ exports.getBookingById = async (req, res) => {
 // Update booking (admin)
 exports.updateBooking = async (req, res) => {
   try {
-    const booking = await Booking.findById(req.params.id);
+    const booking = await Booking.findById(req.params.id).populate('tour_id');
 
     if (!booking) {
       return res.status(404).json({ success: false, message: 'Booking not found' });
     }
 
+    const previousStatus = booking.status;
     const { status, payment_status, admin_notes, payment_method } = req.body;
 
     Object.assign(booking, {
@@ -177,6 +178,13 @@ exports.updateBooking = async (req, res) => {
       payment_method: payment_method || booking.payment_method,
     });
     await booking.save();
+
+    // Send confirmation email if status changed to confirmed
+    if (previousStatus !== 'confirmed' && booking.status === 'confirmed') {
+      sendBookingApprovedEmail(booking, booking.tour_id).catch(err => {
+        console.error('Failed to send booking approved email:', err);
+      });
+    }
 
     res.json({ success: true, data: booking });
   } catch (error) {
@@ -206,14 +214,14 @@ exports.sendConfirmationEmail = async (req, res) => {
   try {
     const booking = await Booking.findById(req.params.id)
       .populate({
-        path: 'tour'
+        path: 'tour_id'
       });
 
     if (!booking) {
       return res.status(404).json({ success: false, message: 'Booking not found' });
     }
 
-    await sendBookingConfirmation(booking, booking.tour);
+    await sendBookingConfirmation(booking, booking.tour_id);
 
     res.json({ success: true, message: 'Confirmation email sent' });
   } catch (error) {
