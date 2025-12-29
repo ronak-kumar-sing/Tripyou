@@ -32,6 +32,11 @@ export const bookingsService = {
     return response.data;
   },
 
+  updateBookingStatus: async (id, status) => {
+    const response = await api.put(`/admin/bookings/${id}`, { status });
+    return response.data;
+  },
+
   sendConfirmationEmail: async (id) => {
     const response = await api.post(`/admin/bookings/${id}/send-email`);
     return response.data;

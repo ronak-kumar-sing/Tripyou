@@ -53,8 +53,8 @@ export default function AdminBookings() {
               key={status}
               onClick={() => setFilter(status)}
               className={`px-4 py-2 rounded-lg font-medium capitalize transition-colors ${filter === status
-                  ? 'bg-primary-500 text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
+                ? 'bg-primary-500 text-white'
+                : 'bg-white text-gray-700 hover:bg-gray-100'
                 }`}
             >
               {status} ({bookings.filter(b => status === 'all' || b.status === status).length})
@@ -70,7 +70,7 @@ export default function AdminBookings() {
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900 mb-2">
-                  {booking.Tour?.title || 'Tour'}
+                  {booking.tour_id?.title || 'Tour'}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-gray-600">
                   <div className="flex items-center gap-2">
@@ -111,8 +111,8 @@ export default function AdminBookings() {
                   value={booking.status}
                   onChange={(e) => handleStatusChange(booking.id, e.target.value)}
                   className={`px-4 py-2 rounded-lg font-medium text-sm border-2 ${booking.status === 'confirmed' ? 'border-green-500 bg-green-50 text-green-700' :
-                      booking.status === 'pending' ? 'border-yellow-500 bg-yellow-50 text-yellow-700' :
-                        'border-red-500 bg-red-50 text-red-700'
+                    booking.status === 'pending' ? 'border-yellow-500 bg-yellow-50 text-yellow-700' :
+                      'border-red-500 bg-red-50 text-red-700'
                     }`}
                 >
                   <option value="pending">Pending</option>
