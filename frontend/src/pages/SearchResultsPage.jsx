@@ -21,9 +21,10 @@ export default function SearchResultsPage() {
       setLoading(true);
       try {
         const response = await searchService.search(query);
-        setResults(response.data);
+        setResults(response.data || { tours: [], blogs: [] });
       } catch (error) {
         console.error('Error searching:', error);
+        setResults({ tours: [], blogs: [] });
       } finally {
         setLoading(false);
       }

@@ -30,7 +30,7 @@ exports.search = async (req, res) => {
           ]
         })
           .populate({
-            path: 'category',
+            path: 'category_id',
             select: 'id name slug'
           })
           .limit(type === 'tours' ? parseInt(limit) : 6)
